@@ -13,13 +13,13 @@ export const Ruteo = () => {
 
       <Route path="/mencre" element={<MenuCrear />} />
 
-      <Route path="melist" element={<MenuListar />} />
+      <Route path="/melist" element={<MenuListar />} />
 
-      <Route path="menadmin" element={<MenuAdmin />} />
+      <Route path="/menadmin" element={<MenuAdmin />} />
 
-      <Route path="menacer" element={<Acerca />} />
+      <Route path="/menacer" element={<Acerca />} />
 
-      <Route path="*" element={<NoEncontrado />} />
+      <Route path="/*" element={<NoEncontrado />} />
 
     </Routes>
   );
