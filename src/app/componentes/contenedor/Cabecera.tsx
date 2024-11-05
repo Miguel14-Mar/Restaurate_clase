@@ -26,12 +26,12 @@ export const Cabecera = () => {
           <div className="collapse navbar-collapse" id="navbarColor01">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link active" aria-current="page" to="/mencre">
+                <NavLink className="nav-link active" aria-current="page" to="/">
                   Inicio
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/*">
+                <NavLink className="nav-link" to="*">
                   Franquicia
                 </NavLink>
               </li>
@@ -53,15 +53,15 @@ export const Cabecera = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <NavLink className="dropdown-item" to="/menlis">
                       Listar Menus
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="">
+                    <NavLink className="dropdown-item" to="/menadmin">
                       Administrar Menus
                     </NavLink>
                   </li>
@@ -70,9 +70,9 @@ export const Cabecera = () => {
 
 
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  hacerca de
-                </a>
+                <NavLink className="nav-link" to="/menuacer">
+                  Acerca de
+                </NavLink>
               </li>
             </ul>
             <form className="d-flex" role="search">
